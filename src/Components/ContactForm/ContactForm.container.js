@@ -1,14 +1,15 @@
 import { connect } from 'react-redux';
-import contactsActions from '../../redux/Contacts/contacts-actions';
+import { contactsOperation } from '../../redux/Contacts';
 import ContactForm from './ContactForm';
+import { getContacts } from '../../redux/Contacts/contacts-selectors';
 
 const mapStateToProps = state => ({
-  contacts: state.contacts.items,
+  contacts: getContacts(state),
 });
 
 const mapDispatchToProps = dispatch => ({
   addContact: (name, number) =>
-    dispatch(contactsActions.addContact(name, number)),
+    dispatch(contactsOperation.addContact(name, number)),
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ContactForm);
