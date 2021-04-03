@@ -4,8 +4,6 @@ import styles from './ContactForm.module.css';
 import Button from '../Button';
 import { toast } from 'react-toastify';
 
-
-
 class ContactForm extends React.Component {
   state = {
     name: '',

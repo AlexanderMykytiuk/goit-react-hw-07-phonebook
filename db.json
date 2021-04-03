@@ -2,48 +2,38 @@
   "contacts": [
     {
       "id": "id-1",
-      "name": "Rosie Simpson",
-      "number": "459-12-56"
+      "name": "Alex Simon",
+      "number": "567-21-58"
     },
     {
       "id": "id-2",
-      "name": "Hermione Kline",
-      "number": "443-89-12"
+      "name": "Clark Kline",
+      "number": "678-39-45"
     },
     {
       "id": "id-3",
-      "name": "Eden Clements",
-      "number": "645-17-79"
+      "name": "Adam Harison",
+      "number": "567-89-32"
     },
     {
       "id": "id-4",
-      "name": "Annie Copeland",
-      "number": "227-91-26"
+      "name": "Anna Copelova",
+      "number": "567-78-89"
     },
     {
       "id": "id-5",
-      "name": "Alex Joli",
-      "number": "477-82-96"
+      "name": "Alex Colins",
+      "number": "678-89-12"
     },
     {
       "id": "id-6",
-      "name": "Henry Bruno",
-      "number": "77-8119-112"
+      "name": "Poly Brutto",
+      "number": "234-81-11"
     },
     {
       "id": "id-7",
-      "name": "Edd Clark",
-      "number": "64854-817-789"
-    },
-    {
-      "id": "id-8",
-      "name": "Helen Roberts",
-      "number": "33-93561-78"
-    },
-    {
-      "name": "Елена ",
-      "number": "77777",
-      "id": "qYP5lny"
+      "name": "Erast Fandorin",
+      "number": "854-87-89"
     }
   ]
 }
